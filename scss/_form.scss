@@ -1,0 +1,41 @@
+%input{
+    width: 100%;
+    margin: 25px 0;
+    font-size: 12px;
+    padding: 10px 0;
+    border: none;
+}
+
+%btn{
+    width: 100%;
+    color: $light-color;
+    padding: 10px 0;
+    margin-top: 10px;
+    background: $button-bg;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+%content-primary{
+    font-size: 10px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.input-primary{
+    @extend %input;
+    background-color: $primary-color;
+    color: $light-color;
+    border-bottom: 1px $dark-color solid;
+    margin-bottom: 10px;
+}
+
+.btn-primary{
+    @extend %btn;
+    margin-bottom: 10px;
+}
+
+.content-primary{
+    @extend %content-primary;
+}

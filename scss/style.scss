@@ -1,0 +1,84 @@
+@import 'config';
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+img{
+    width: 100%;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+    padding: 0 1px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+  }
+
+ .showcase{
+     background: $bg-color;
+     color: $dark-color;
+     height: 100%;
+     padding: 20px 0;
+
+     &-content{
+         h3{
+             font-size: 25px;
+             text-align: center;
+             margin-bottom: 10px;
+         }
+
+        .my-1{
+            font-size: 12px;
+
+            b{
+                display: inline-block;
+                font-weight: 100;
+                margin-top: 3px;
+            }
+
+            a{
+                color: $darken-color;
+                font-weight: bold;
+            }
+        }
+        .const{
+            color: $darken-color;
+            font-weight: 900;
+        }
+    }
+
+    &-footer{
+        text-align: center;
+        font-size: 10px;
+        color: $darken-color;
+        line-height: 1.6;
+        margin-top: 15px;
+
+        b{
+            font-weight: 100;
+            color: $light-color;
+        }
+        a{
+            color: $darken-color;
+        }
+    }
+
+    ul{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+ }
+
+@import 'utilities';
+@import 'form';
+@import 'mobile';

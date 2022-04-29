@@ -1,0 +1,33 @@
+@media (max-width: 480px) {
+    .showcase{
+        width: 100%;
+        height: 100%;
+        padding: 0 auto;
+
+        &-content{
+            p{
+                font-size: 13px;
+            }
+
+            .content-primary{
+                font-size: 12px;
+            }    
+        }
+
+        .my-1{
+            p{
+                font-size: 12px;
+            }
+
+            b{
+                display:block;
+            }
+        }
+    }
+
+    .container{
+        width: 270px;
+        padding: 20px 15px;
+        margin: 0 auto;
+    }
+}
